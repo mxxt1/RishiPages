@@ -1,0 +1,52 @@
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    return render_template("home.html")
+
+@app.route("/services")
+def services():
+    return render_template("services.html")
+
+# Service detail pages
+@app.route("/services/brand-activation")
+def brand_activation():
+    return render_template("services_brand_activation.html")
+
+@app.route("/services/staff-training")
+def staff_training():
+    return render_template("services_staff_training.html")
+
+@app.route("/services/merchandising")
+def merchandising():
+    return render_template("services_merchandising.html")
+
+@app.route("/services/street-teams")
+def street_teams():
+    return render_template("services_street_teams.html")
+
+@app.route("/services/mystery-shopping")
+def mystery_shopping():
+    return render_template("services_mystery_shopping.html")
+
+@app.route("/services/sales")
+def services_sales():
+    return render_template("services_sales.html")
+
+@app.route("/about")
+def about():
+    return render_template("about.html")
+
+@app.route("/contact")
+def contact():
+    return render_template("contact.html")
+
+@app.route("/resources")
+def resources():
+    return render_template("resources.html")
+
+@app.route("/investors")
+def investors():
+    return render_template("investors.html")

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- =======================6) RESOURCES ("/resources")======================= -->
+<section id="resources">
+  <h1>Resources</h1>
+  <p>
+    Explore our curated selection of guides, case studies, and white papers—distilled
+    from real-world campaigns and success stories.
+  </p>
+
+  <ul>
+    <li>
+      <strong>Case Study: Increasing Dispensary Foot Traffic</strong><br>
+      How we helped GreenLeaf Ventures boost visits by 35% via street teams.
+    </li>
+    <li>
+      <strong>Guide: Field Marketing 101</strong><br>
+      Foundational tactics every brand or dispensary should know.
+    </li>
+    <li>
+      <strong>White Paper: Emerging Cannabis Retail Trends</strong><br>
+      In-depth analysis of consumer behavior, product categories, and compliance best practices.
+    </li>
+  </ul>
+</section>
+
+{% endblock %}

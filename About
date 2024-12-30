@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- =======================4) ABOUT ("/about")======================= -->
+<section id="page-title">
+  <h1>About Us</h1>
+</section>
+
+<section id="main-paragraphs">
+  <p>
+    Rishi’s Ground Game began with a simple insight: face-to-face connections still matter
+    in a digital world. Rishi leveraged over 10 years of hands-on field marketing experience,
+    from Fortune 500 brand activations to pioneering cannabis retail strategies. Today,
+    our team unites event specialists, trainers, and sales experts passionate about driving
+    tangible results.
+  </p>
+</section>
+
+<section id="mission-values">
+  <h2>Mission &amp; Values</h2>
+  <ul>
+    <li>We bridge big ideas with real-world impact.</li>
+    <li>We respect compliance, diversity, and community engagement in every project.</li>
+    <li>We measure success by the strength of the relationships we build.</li>
+  </ul>
+</section>
+
+<section id="meet-rishi">
+  <h2>Meet Rishi</h2>
+  <p>
+    Rishi is a seasoned professional who’s helped both massive corporations and emerging
+    startups find their voice in crowded markets. He believes every brand—big or small—deserves
+    an equal shot at forging genuine customer bonds.
+  </p>
+</section>
+
+{% endblock %}

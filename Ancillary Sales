@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- --------------------------------
+     /services/sales
+----------------------------------- -->
+<section id="hero">
+  <h1>Sales (3rd Party Lead Gen / ISO)</h1>
+  <p>
+    Expand your revenue with an outside sales team that understands your product, your market,
+    and your unique value proposition.
+  </p>
+</section>
+
+<section id="why-it-matters">
+  <h2>Why It Matters</h2>
+  <ul>
+    <li>Tap into Rishi’s proven pipelines for B2B, dispensary outreach, or consumer lead gen.</li>
+    <li>Leverage extensive industry connections to close deals faster.</li>
+    <li>Enjoy a scalable approach that aligns with your growth goals.</li>
+  </ul>
+</section>
+
+<section id="our-approach">
+  <h2>Our Approach</h2>
+  <p>
+    Combining Rishi’s cannabis and ancillary market expertise, we recruit or train dedicated
+    sales pros to handle lead generation, follow-ups, and onboarding.
+  </p>
+</section>
+
+<section id="testimonial">
+  <blockquote>
+    “Their sales strategy helped us land top-tier dispensaries in under a month!”
+  </blockquote>
+  <p>— Ashley Kim, COO, Redwood Labs</p>
+</section>
+
+<section id="image-gallery">
+  <!-- Placeholder Image Gallery -->
+  <img src="/static/images/placeholder.png" alt="Placeholder Image">
+  <img src="/static/images/placeholder.png" alt="Placeholder Image">
+</section>
+
+<section id="featured-work">
+  <h2>Featured Work</h2>
+  <ul>
+    <li><strong>Redwood Labs ISO Partnership</strong>: Established robust channels for outside sales teams, fueling expansion.</li>
+    <li><strong>GreenLeaf B2B Outreach</strong>: Identified strategic wholesale partners across multiple states.</li>
+  </ul>
+</section>
+
+<section id="final-cta">
+  <p>Ready to boost your sales? <a href="/contact">Contact Us</a> and let’s talk pipelines.</p>
+</section>
+
+{% endblock %}

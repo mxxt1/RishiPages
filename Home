@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- =======================1) HOME ("/")======================= -->
+<!-- Hero Section -->
+<section id="hero">
+  <h1>Your Ground Game Elevated</h1>
+  <p>
+    At Rishi’s Ground Game, we specialize in field marketing strategies that connect
+    with customers where it matters most—in real life. From activations and merchandising
+    to data collection and street teams, our approach blends creativity, compliance, and
+    real-world experience.
+  </p>
+  <a href="/services" class="btn">View Services</a>
+</section>
+
+<!-- Three-Column Overview -->
+<section id="three-column-overview">
+  <div class="column">
+    <h3>For Brands</h3>
+    <p>
+      Create unforgettable experiences with product demos, pop-ups, or large-scale
+      activations. We transform curious audiences into loyal customers.
+    </p>
+    <a href="/services" class="cta-link">Learn More → Services</a>
+  </div>
+
+  <div class="column">
+    <h3>For Dispensaries</h3>
+    <p>
+      Boost your dispensary’s reputation and revenue with staff training, brand events,
+      and community outreach programs that resonate with today’s consumers.
+    </p>
+    <a href="/services" class="cta-link">Learn More → Services</a>
+  </div>
+
+  <div class="column">
+    <h3>For Ancillary</h3>
+    <p>
+      Amplify your reach with ISO sales, outside sales, and comprehensive field marketing
+      solutions for peripheral industries seeking new channels.
+    </p>
+    <a href="/services" class="cta-link">Learn More → Services</a>
+  </div>
+</section>
+
+<!-- Carousel / Logo Grid -->
+<section id="trusted-by">
+  <h2>Trusted By</h2>
+  <!-- Placeholder images or logos -->
+  <div class="logo-grid">
+    <img src="/static/images/placeholder.png" alt="Catalyst Cannabis Logo">
+    <img src="/static/images/placeholder.png" alt="GreenLeaf Ventures Logo">
+    <img src="/static/images/placeholder.png" alt="Redwood Labs Logo">
+    <!-- Add more as needed -->
+  </div>
+</section>
+
+{% endblock %}

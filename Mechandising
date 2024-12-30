@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- --------------------------------
+     /services/merchandising
+----------------------------------- -->
+<section id="hero">
+  <h1>Merchandising</h1>
+  <p>
+    Proper product placement is the silent salesman that drives sales before a staff member
+    even speaks.
+  </p>
+</section>
+
+<section id="why-it-matters">
+  <h2>Why It Matters</h2>
+  <ul>
+    <li>Well-placed displays increase impulse buys and overall basket size.</li>
+    <li>Strategic signage guides consumers quickly to what they want.</li>
+    <li>A consistent look and feel builds brand trust.</li>
+  </ul>
+</section>
+
+<section id="our-approach">
+  <h2>Our Approach</h2>
+  <p>
+    We analyze your space, develop custom planograms, and optimize traffic flow.
+    We ensure your products are showcased for maximum attention.
+  </p>
+</section>
+
+<section id="testimonial">
+  <blockquote>
+    “We noticed a 30% boost in weekly sales after Rishi helped rearrange our dispensary layout!”
+  </blockquote>
+  <p>— Sophia Lee, Founder of Blooming Spaces</p>
+</section>
+
+<section id="image-gallery">
+  <!-- Placeholder Image Gallery -->
+  <img src="/static/images/placeholder.png" alt="Placeholder Image">
+  <img src="/static/images/placeholder.png" alt="Placeholder Image">
+</section>
+
+<section id="featured-work">
+  <h2>Featured Work</h2>
+  <ul>
+    <li><strong>Blooming Spaces Layout Revamp</strong>: Reorganized shelves and signage for better product discovery.</li>
+    <li><strong>Catalyst Signage Refresh</strong>: Brought visual consistency across multiple store locations.</li>
+  </ul>
+</section>
+
+<section id="final-cta">
+  <p>Ready to make every shelf count? <a href="/contact">Contact Us</a> now.</p>
+</section>
+
+{% endblock %}

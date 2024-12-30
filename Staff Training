@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- --------------------------------
+     /services/staff-training
+----------------------------------- -->
+<section id="hero">
+  <h1>Staff Training</h1>
+  <p>
+    Empower your team with the knowledge, confidence, and customer-engagement skills needed
+    to represent your brand or dispensary at the highest level.
+  </p>
+</section>
+
+<section id="why-it-matters">
+  <h2>Why It Matters</h2>
+  <ul>
+    <li>Well-trained staff ensure consistent brand messaging across all customer touchpoints.</li>
+    <li>Enhanced customer experience leads to higher retention and loyalty.</li>
+    <li>Compliance is vital in cannabis—trained teams minimize regulatory risks.</li>
+  </ul>
+</section>
+
+<section id="our-approach">
+  <h2>Our Approach</h2>
+  <p>
+    Sessions cover product knowledge, compliance protocols, soft skills, and real-world
+    role-play. Rishi’s decade-plus experience helps your people thrive on the ground.
+  </p>
+</section>
+
+<section id="testimonial">
+  <blockquote>
+    “After Rishi’s training, our staff not only understood the products better but were
+    upselling confidently!”
+  </blockquote>
+  <p>— John Hernandez, Store Manager, GreenLeaf Ventures</p>
+</section>
+
+<section id="image-gallery">
+  <!-- Placeholder Image Gallery -->
+  <img src="/static/images/placeholder.png" alt="Placeholder Image">
+  <img src="/static/images/placeholder.png" alt="Placeholder Image">
+</section>
+
+<section id="featured-work">
+  <h2>Featured Work</h2>
+  <ul>
+    <li><strong>GreenLeaf Team Overhaul</strong>: Focused on in-depth budtender education + customer care.</li>
+    <li><strong>Redwood Labs Demo Training</strong>: Aligned a traveling brand ambassador crew with consistent talking points.</li>
+  </ul>
+</section>
+
+<section id="final-cta">
+  <p>Strengthen your team. <a href="/contact">Contact Us</a> for a custom training plan.</p>
+</section>
+
+{% endblock %}

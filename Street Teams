@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- --------------------------------
+     /services/street-teams
+----------------------------------- -->
+<section id="hero">
+  <h1>Street Teams</h1>
+  <p>
+    Hit the pavement with professionally trained ambassadors who bring your brand directly
+    to consumers—wherever they gather.
+  </p>
+</section>
+
+<section id="why-it-matters">
+  <h2>Why It Matters</h2>
+  <ul>
+    <li>Face-to-face marketing cuts through digital noise, creating personal connections.</li>
+    <li>Distributing samples and collecting on-the-spot feedback is invaluable for product launches.</li>
+    <li>Street-level presence often leads to stronger local brand recognition.</li>
+  </ul>
+</section>
+
+<section id="our-approach">
+  <h2>Our Approach</h2>
+  <p>
+    We recruit, train, and deploy enthusiastic field reps armed with clear messaging and
+    materials. Rishi ensures each event or location is a high-impact opportunity.
+  </p>
+</section>
+
+<section id="testimonial">
+  <blockquote>
+    “Our new product gained immediate traction from festival-goers. Rishi’s street teams
+    made it happen!”
+  </blockquote>
+  <p>— Carlos Ramirez, Marketing Lead, Urban Bloom</p>
+</section>
+
+<section id="image-gallery">
+  <!-- Placeholder Image Gallery -->
+  <img src="/static/images/placeholder.png" alt="Placeholder Image">
+  <img src="/static/images/placeholder.png" alt="Placeholder Image">
+</section>
+
+<section id="featured-work">
+  <h2>Featured Work</h2>
+  <ul>
+    <li><strong>Urban Bloom Festival Tour</strong>: Engaged thousands with promotional giveaways and sign-up calls to action.</li>
+    <li><strong>Redwood Labs City Blitz</strong>: Targeted high-traffic downtown areas for sampling and consumer surveys.</li>
+  </ul>
+</section>
+
+<section id="final-cta">
+  <p>Take your brand to the streets. <a href="/contact">Contact Us</a> and let’s deploy your team.</p>
+</section>
+
+{% endblock %}

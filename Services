@@ -1,0 +1,147 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- =======================2) SERVICES ("/services")======================= -->
+<section id="services-intro">
+  <h1>Service Offerings</h1>
+  <p>
+    Rishi’s Ground Game tailors each solution to your unique goals—whether you’re a budding
+    dispensary, a national brand, or an ancillary business seeking fresh markets. Our proven
+    strategies help you stand out in any environment.
+  </p>
+</section>
+
+<!-- Filter / Tabs (For Brands, For Dispensaries, For Ancillary) -->
+<section id="services-tabs">
+  <ul>
+    <li><a href="#" onclick="showServices('brands')">For Brands</a></li>
+    <li><a href="#" onclick="showServices('dispensaries')">For Dispensaries</a></li>
+    <li><a href="#" onclick="showServices('ancillary')">For Ancillary</a></li>
+  </ul>
+</section>
+
+<!-- Services Content -->
+<div id="brands" class="services-content">
+  <h2>For Brands (default)</h2>
+  <ol>
+    <li>
+      <strong>Merchandising for brands</strong><br>
+      Optimize product displays, signage, and shelf placement to attract customer attention
+      and boost sales.
+      <br><a href="/services/merchandising">Link → /services/merchandising</a>
+    </li>
+    <li>
+      <strong>Street Teams</strong><br>
+      Deploy specialized teams to generate buzz through hands-on consumer engagement at
+      festivals, events, or city hotspots.
+      <br><a href="/services/street-teams">Link → /services/street-teams</a>
+    </li>
+    <li>
+      <strong>Mystery Shopping</strong><br>
+      Get real customer insights on how your brand is actually being presented and sold
+      at retail.
+      <br><a href="/services/mystery-shopping">Link → /services/mystery-shopping</a>
+    </li>
+    <li>
+      <strong>Staff Training</strong><br>
+      Equip your brand ambassadors or retail staff with the knowledge and confidence
+      to represent you flawlessly.
+      <br><a href="/services/staff-training">Link → /services/staff-training</a>
+    </li>
+    <li>
+      <strong>Brand Activation</strong><br>
+      Launch immersive events or product demos that leave a lasting impression and
+      build loyalty.
+      <br><a href="/services/brand-activation">Link → /services/brand-activation</a>
+    </li>
+  </ol>
+</div>
+
+<div id="dispensaries" class="services-content" style="display:none;">
+  <h2>For Dispensaries</h2>
+  <ol>
+    <li>
+      <strong>Brand Activation</strong><br>
+      Run in-store promotions or pop-up events highlighting new product lines, educating
+      consumers, and building brand affinity.
+      <br><a href="/services/brand-activation">Link → /services/brand-activation</a>
+    </li>
+    <li>
+      <strong>Staff Training</strong><br>
+      Elevate your dispensary’s service level with product knowledge, compliance expertise,
+      and superior customer engagement.
+      <br><a href="/services/staff-training">Link → /services/staff-training</a>
+    </li>
+    <li>
+      <strong>Merchandising for brands</strong><br>
+      Improve product arrangement, signage, and category organization to streamline
+      shopping and increase impulse buys.
+      <br><a href="/services/merchandising">Link → /services/merchandising</a>
+    </li>
+    <li>
+      <strong>Street Teams</strong><br>
+      Spread awareness in your community with local outreach, educational sessions,
+      and promotional events.
+      <br><a href="/services/street-teams">Link → /services/street-teams</a>
+    </li>
+    <li>
+      <strong>Mystery Shopping</strong><br>
+      Spot compliance gaps and perfect your customer experience by getting honest feedback
+      from real shoppers.
+      <br><a href="/services/mystery-shopping">Link → /services/mystery-shopping</a>
+    </li>
+  </ol>
+</div>
+
+<div id="ancillary" class="services-content" style="display:none;">
+  <h2>For Ancillary</h2>
+  <ol>
+    <li>
+      <strong>Brand Activation</strong><br>
+      Promote your solutions at industry expos, trade shows, or partner events to attract
+      new B2B and B2C leads.
+      <br><a href="/services/brand-activation">Link → /services/brand-activation</a>
+    </li>
+    <li>
+      <strong>Staff Training</strong><br>
+      Ensure your outside reps or partner staff fully understand and can effectively
+      pitch your ancillary offerings.
+      <br><a href="/services/staff-training">Link → /services/staff-training</a>
+    </li>
+    <li>
+      <strong>Merchandising for brands</strong><br>
+      If you provide physical products or packaging, showcase them effectively with
+      strategic store or event displays.
+      <br><a href="/services/merchandising">Link → /services/merchandising</a>
+    </li>
+    <li>
+      <strong>Street Teams</strong><br>
+      Coordinate live marketing efforts targeting potential clients or partners in
+      relevant locations.
+      <br><a href="/services/street-teams">Link → /services/street-teams</a>
+    </li>
+    <li>
+      <strong>Mystery Shopping</strong><br>
+      Maintain brand integrity and gather real-world feedback on how your ancillary
+      services are presented.
+      <br><a href="/services/mystery-shopping">Link → /services/mystery-shopping</a>
+    </li>
+    <li>
+      <strong>Sales (3rd Party Lead Gen / ISO)</strong><br>
+      Accelerate your revenue with proven pipelines, personal outreach, and Rishi’s
+      extensive industry network.
+      <br><a href="/services/sales">Link → /services/sales</a>
+    </li>
+  </ol>
+</div>
+
+<script>
+function showServices(sectionId) {
+  document.getElementById('brands').style.display = 'none';
+  document.getElementById('dispensaries').style.display = 'none';
+  document.getElementById('ancillary').style.display = 'none';
+  document.getElementById(sectionId).style.display = 'block';
+}
+</script>
+
+{% endblock %}

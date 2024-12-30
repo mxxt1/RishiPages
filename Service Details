@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- --------------------------------
+     /services/brand-activation
+----------------------------------- -->
+<section id="hero">
+  <h1>Brand Activation</h1>
+  <p>
+    Captivate your audience with unforgettable experiences—pop-ups, demos, product launches,
+    and more. Perfect for making a lasting impression in a crowded market.
+  </p>
+</section>
+
+<section id="why-it-matters">
+  <h2>Why It Matters</h2>
+  <ul>
+    <li>Live events forge direct connections, leaving consumers with memorable interactions.</li>
+    <li>Brand Activation often generates organic word-of-mouth and social media buzz.</li>
+    <li>Helps educate potential customers on new products or features in an engaging way.</li>
+  </ul>
+</section>
+
+<section id="our-approach">
+  <h2>Our Approach</h2>
+  <p>
+    Rishi combines creative vision with operational expertise. We handle logistics, staffing,
+    design, and post-event analysis to ensure your activation drives measurable results.
+  </p>
+</section>
+
+<section id="testimonial">
+  <blockquote>
+    “We saw a 40% uptick in product trials after Rishi’s brand activation event.
+    The crowd engagement was incredible!”
+  </blockquote>
+  <p>— Jane Doe, Marketing Director, Catalyst Cannabis</p>
+</section>
+
+<section id="image-gallery">
+  <!-- Placeholder Image Gallery -->
+  <img src="/static/images/placeholder.png" alt="Placeholder Image">
+  <img src="/static/images/placeholder.png" alt="Placeholder Image">
+</section>
+
+<section id="featured-work">
+  <h2>Featured Work</h2>
+  <ul>
+    <li><strong>Catalyst Pop-Up</strong>: Showcased a new product line in a festival setting, drawing large crowds.</li>
+    <li><strong>Urban Bloom Launch</strong>: Coordinated an immersive VR booth that demoed product benefits while collecting leads.</li>
+  </ul>
+</section>
+
+<section id="final-cta">
+  <p>Ready to bring your brand to life? <a href="/contact">Contact Us Now</a></p>
+</section>
+
+{% endblock %}

@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- --------------------------------
+     /services/mystery-shopping
+----------------------------------- -->
+<section id="hero">
+  <h1>Mystery Shopping</h1>
+  <p>
+    See your business through a genuine customer’s eyes. Our discreet shoppers uncover
+    real experiences that staff surveys might miss.
+  </p>
+</section>
+
+<section id="why-it-matters">
+  <h2>Why It Matters</h2>
+  <ul>
+    <li>Ensures compliance, especially crucial in cannabis.</li>
+    <li>Reveals staff strengths and training gaps.</li>
+    <li>Helps you polish customer journeys and refine operations.</li>
+  </ul>
+</section>
+
+<section id="our-approach">
+  <h2>Our Approach</h2>
+  <p>
+    We set clear objectives, send in trained secret shoppers, and compile thorough reports
+    so you can act on real insights.
+  </p>
+</section>
+
+<section id="testimonial">
+  <blockquote>
+    “We discovered inconsistencies in staff approach across locations. Rishi’s data helped
+    us fix them fast!”
+  </blockquote>
+  <p>— Timothy Andrews, Ops Director, GreenLeaf Ventures</p>
+</section>
+
+<section id="image-gallery">
+  <!-- Placeholder Image Gallery -->
+  <img src="/static/images/placeholder.png" alt="Placeholder Image">
+  <img src="/static/images/placeholder.png" alt="Placeholder Image">
+</section>
+
+<section id="featured-work">
+  <h2>Featured Work</h2>
+  <ul>
+    <li><strong>GreenLeaf Cross-Location Audit</strong>: Evaluated staff knowledge, ID check processes, and brand consistency.</li>
+    <li><strong>Redwood Labs Feedback</strong>: Analyzed how well store reps pitched new product features.</li>
+  </ul>
+</section>
+
+<section id="final-cta">
+  <p>Want a true picture of your customer experience? <a href="/contact">Contact Us</a>.</p>
+</section>
+
+{% endblock %}

@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- =======================7) FOR INVESTORS ("/investors")======================= -->
+<section id="investors">
+  <h1>For Investors</h1>
+  <p>
+    We’re on a mission to transform how cannabis, brand, and ancillary businesses reach
+    their customers. Learn how our growth trajectory and proven methods position us as
+    a unique investment opportunity.
+  </p>
+
+  <h2>Financial Highlights (Placeholders)</h2>
+  <ul>
+    <li>40% average annual revenue increase over the last 3 years</li>
+    <li>Partnerships with 50+ dispensaries, 30+ consumer brands, 20+ ancillary providers</li>
+    <li>Scalable service model with low overhead and high impact</li>
+  </ul>
+
+  <h2>Growth Strategy</h2>
+  <ul>
+    <li>Expanding into new markets and states as regulation evolves.</li>
+    <li>Developing advanced data analysis tools to sharpen real-time field insights.</li>
+  </ul>
+
+  <p>
+    For more information or press inquiries, email: invest@rishisgroundgame.com
+  </p>
+</section>
+
+{% endblock %}
